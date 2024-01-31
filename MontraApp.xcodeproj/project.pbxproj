@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3B1006BA2B693EA500C7A09B /* MontraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1006B92B693EA500C7A09B /* MontraAppApp.swift */; };
-		3B1006BC2B693EA500C7A09B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1006BB2B693EA500C7A09B /* ContentView.swift */; };
+		3B1006BC2B693EA500C7A09B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1006BB2B693EA500C7A09B /* MainView.swift */; };
 		3B1006BE2B693EA800C7A09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1006BD2B693EA800C7A09B /* Assets.xcassets */; };
 		3B1006C12B693EA800C7A09B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1006C02B693EA800C7A09B /* Preview Assets.xcassets */; };
 		3B1006CA2B693F8B00C7A09B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1006C92B693F8B00C7A09B /* SignUpView.swift */; };
+		3B6DD4812B6AA1F000E1A941 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6DD4802B6AA1F000E1A941 /* Onboarding.swift */; };
+		3B6DD4842B6AA2E200E1A941 /* OnboardingSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6DD4832B6AA2E200E1A941 /* OnboardingSingleView.swift */; };
+		3B6DD4862B6AA33700E1A941 /* CustomDotIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6DD4852B6AA33700E1A941 /* CustomDotIndicator.swift */; };
+		3B6DD4882B6AA37100E1A941 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6DD4872B6AA37100E1A941 /* OnboardingView.swift */; };
+		3B6DD48A2B6AA66F00E1A941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6DD4892B6AA66F00E1A941 /* LaunchScreen.storyboard */; };
 		3BBC54DD2B694CE5001E3BD9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC54D42B694CE5001E3BD9 /* Inter-Medium.ttf */; };
 		3BBC54DE2B694CE5001E3BD9 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC54D52B694CE5001E3BD9 /* Inter-Light.ttf */; };
 		3BBC54DF2B694CE5001E3BD9 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC54D62B694CE5001E3BD9 /* Inter-Thin.ttf */; };
@@ -22,16 +27,21 @@
 		3BBC54E42B694CE5001E3BD9 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC54DB2B694CE5001E3BD9 /* Inter-Black.ttf */; };
 		3BBC54E52B694CE5001E3BD9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC54DC2B694CE5001E3BD9 /* Inter-SemiBold.ttf */; };
 		3BBC54E82B6952F4001E3BD9 /* ResultsSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC54E72B6952F4001E3BD9 /* ResultsSignUpView.swift */; };
-		3BBC54EB2B69550F001E3BD9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC54EA2B69550F001E3BD9 /* UserModel.swift */; };
+		3BBC54EB2B69550F001E3BD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC54EA2B69550F001E3BD9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B1006B62B693EA500C7A09B /* MontraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1006B92B693EA500C7A09B /* MontraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontraAppApp.swift; sourceTree = "<group>"; };
-		3B1006BB2B693EA500C7A09B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B1006BB2B693EA500C7A09B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3B1006BD2B693EA800C7A09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1006C02B693EA800C7A09B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B1006C92B693F8B00C7A09B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3B6DD4802B6AA1F000E1A941 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		3B6DD4832B6AA2E200E1A941 /* OnboardingSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSingleView.swift; sourceTree = "<group>"; };
+		3B6DD4852B6AA33700E1A941 /* CustomDotIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDotIndicator.swift; sourceTree = "<group>"; };
+		3B6DD4872B6AA37100E1A941 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3B6DD4892B6AA66F00E1A941 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBC54D42B694CE5001E3BD9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		3BBC54D52B694CE5001E3BD9 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 		3BBC54D62B694CE5001E3BD9 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
@@ -43,7 +53,7 @@
 		3BBC54DC2B694CE5001E3BD9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		3BBC54E62B694D03001E3BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3BBC54E72B6952F4001E3BD9 /* ResultsSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsSignUpView.swift; sourceTree = "<group>"; };
-		3BBC54EA2B69550F001E3BD9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3BBC54EA2B69550F001E3BD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +116,11 @@
 		3B1006C82B693F6800C7A09B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3B1006BB2B693EA500C7A09B /* ContentView.swift */,
+				3B6DD4822B6AA2CC00E1A941 /* Subviews */,
+				3B1006BB2B693EA500C7A09B /* MainView.swift */,
 				3B1006C92B693F8B00C7A09B /* SignUpView.swift */,
 				3BBC54E72B6952F4001E3BD9 /* ResultsSignUpView.swift */,
+				3B6DD4872B6AA37100E1A941 /* OnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,10 +128,20 @@
 		3B1006CB2B693F9500C7A09B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC54D32B694CE5001E3BD9 /* Fonts */,
 				3B1006BD2B693EA800C7A09B /* Assets.xcassets */,
+				3B6DD4892B6AA66F00E1A941 /* LaunchScreen.storyboard */,
+				3BBC54D32B694CE5001E3BD9 /* Fonts */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B6DD4822B6AA2CC00E1A941 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				3B6DD4832B6AA2E200E1A941 /* OnboardingSingleView.swift */,
+				3B6DD4852B6AA33700E1A941 /* CustomDotIndicator.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		3BBC54D02B694782001E3BD9 /* Components */ = {
@@ -148,7 +170,8 @@
 		3BBC54E92B695500001E3BD9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC54EA2B69550F001E3BD9 /* UserModel.swift */,
+				3BBC54EA2B69550F001E3BD9 /* User.swift */,
+				3B6DD4802B6AA1F000E1A941 /* Onboarding.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +243,7 @@
 				3BBC54DF2B694CE5001E3BD9 /* Inter-Thin.ttf in Resources */,
 				3BBC54DD2B694CE5001E3BD9 /* Inter-Medium.ttf in Resources */,
 				3BBC54E42B694CE5001E3BD9 /* Inter-Black.ttf in Resources */,
+				3B6DD48A2B6AA66F00E1A941 /* LaunchScreen.storyboard in Resources */,
 				3BBC54E32B694CE5001E3BD9 /* Inter-ExtraLight.ttf in Resources */,
 				3BBC54E12B694CE5001E3BD9 /* Inter-Regular.ttf in Resources */,
 			);
@@ -232,10 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1006BC2B693EA500C7A09B /* ContentView.swift in Sources */,
+				3B6DD4812B6AA1F000E1A941 /* Onboarding.swift in Sources */,
+				3B1006BC2B693EA500C7A09B /* MainView.swift in Sources */,
+				3B6DD4862B6AA33700E1A941 /* CustomDotIndicator.swift in Sources */,
+				3B6DD4882B6AA37100E1A941 /* OnboardingView.swift in Sources */,
 				3BBC54E82B6952F4001E3BD9 /* ResultsSignUpView.swift in Sources */,
 				3B1006CA2B693F8B00C7A09B /* SignUpView.swift in Sources */,
-				3BBC54EB2B69550F001E3BD9 /* UserModel.swift in Sources */,
+				3BBC54EB2B69550F001E3BD9 /* User.swift in Sources */,
+				3B6DD4842B6AA2E200E1A941 /* OnboardingSingleView.swift in Sources */,
 				3B1006BA2B693EA500C7A09B /* MontraAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +405,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,9 +415,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adityahimaone.MontraApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -407,6 +439,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -416,9 +449,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adityahimaone.MontraApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

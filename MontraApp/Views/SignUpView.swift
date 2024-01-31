@@ -15,6 +15,8 @@ enum ButtonType {
 }
 
 struct SignUpView: View {
+    @Environment(\.dismiss) var dismiss
+    
     @State private var name: String = ""
     @State private var email: String = ""
     @State private var password: String = ""
@@ -101,6 +103,18 @@ struct SignUpView: View {
             .padding()
             .navigationTitle("Sign Up")
             .navigationBarTitleDisplayMode(.inline)
+            .navigationBarBackButtonHidden(true)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        dismiss()
+                    } label: {
+                        Image(systemName: "arrow.left")
+                            .font(.title3)
+                    }
+                    .tint(.black)
+                }
+            }
             .navigationDestination(isPresented: $isNavigateToView) {
                 ResultsSignUpView(userData: userData)
             }

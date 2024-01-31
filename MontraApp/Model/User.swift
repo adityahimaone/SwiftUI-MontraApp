@@ -12,3 +12,9 @@ struct UserData {
     var email: String
     var password: String
 }
+
+extension  UserData {
+    static let data: UserData = {
+        UserData(name: "Aditya Himawan", email: "test@mail.com", password: "123456")
+    }()
+}

@@ -29,5 +29,5 @@ struct ResultsSignUpView: View {
 }
 
 #Preview {
-    ResultsSignUpView(userData: UserData(name: "test", email: "test", password: "test"))
+    ResultsSignUpView(userData: UserData.data)
 }
